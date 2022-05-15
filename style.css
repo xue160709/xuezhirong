@@ -1,0 +1,106 @@
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+#left{
+    height: 100%;
+    float: left;
+    position:absolute;
+}
+#right{
+    height: 100%;
+    float: left;
+    position:absolute;
+    background-color: white;
+    text-align: right;
+}
+
+#svg2{
+    filter:drop-shadow(-5px 5px 5px rgba(0,0,0,0.2));
+}
+
+
+h1{
+    font-family:"STKaiti","Kaiti";
+    font-size: 72px;
+    font-weight: bold;
+    width: 72px;
+    line-height: 88px;
+}
+
+h2{
+    font-family:"STKaiti","Kaiti";
+    font-size: 48px;
+    margin-top: 12px;
+    width: 48px;
+    float: right;
+    line-height: 56px;
+}
+
+h3{
+    font-family:"STKaiti","Kaiti";
+    font-size: 40px;
+    margin-top: 12px;
+    width: 50px;
+    float: right;
+    margin-bottom: -14px;
+    line-height: 56px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#yinzhang{
+    width: 60px;
+    margin-top:20px;
+    margin-right: 4px;
+}
+
+#name{
+    margin-right: 120px;
+    margin-top: 60px;
+    margin-left: 14px;
+    width: 72px;
+    float: right;
+}
+
+.item{
+    margin-right: 32px;
+    margin-top: 78px;
+    width: 48px;
+    float: right;
+}
+
+#fish{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
